@@ -46,8 +46,16 @@ body {
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
-.reveal section h1 {
-  color: white; }
+.pp-title h1 {
+  color: white;
+  text-shadow: 8px 8px 5px black; }
+
+.pp-title p,
+.reveal section.pp-title a,
+.reveal section.pp-title a:hover {
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 5px 5px 0px black; }
 
 /*********************************************
  * LINKS
