@@ -46,7 +46,7 @@ body {
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
-.pp-title h1 {
+.pp-title h1, .pp-title h2 {
   color: white;
   text-shadow: 8px 8px 5px black; }
 
@@ -56,6 +56,12 @@ body {
   color: white;
   font-size: 1.5em;
   text-shadow: 5px 5px 0px black; }
+
+.pp-title-top h1 {
+  font-size: 3em;
+  /*margin-top: -300px;*/
+  margin-bottom: 430px;
+}
 
 /*********************************************
  * LINKS
