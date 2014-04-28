@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<settings>
+		<firstView>start</firstView>
+		<useWebcam>true</useWebcam>
+		<guidedTour>true</guidedTour>
+		<openLinksInNewWindow>_blank</openLinksInNewWindow>
+		<mouseViewInteraction>true</mouseViewInteraction>
+	</settings>
+	<views>
+	
+		<view name="start" x="0" y="3000" z="-3000" next="powerrail" previous="end" tourTimeout="4">
+			<objects/>
+		</view>
+		
+		<view name="powerrail" x="0" y="0" z="0" tourTimeout="5" tweenTime="2">
+			<objects>
+				<object type="text" width="800" fontcolor="0xffffff" fontsize="100" height="300" source="	PowerRail		NiftySystems" x="0" y="0" z="400" rotationY="0" transparency="false"/>
+			</objects>
+		</view>
+		
+		<view name="1" x="0" y="500" z="1000" tourTimeout="3">
+			<objects>
+				<object type="text" width="800" fontcolor="0xffffff" fontsize="100" height="300" source="Papervision3d / XML Powered Presenting Tool" x="0" y="0" z="400" rotationY="0" transparency="false"/>
+			</objects>
+		</view>
+		
+		<view name="2" x="0" y="1000" z="2000" tourTimeout="5">
+			<objects>
+				<object type="image" source="pingwing.png" click="Filter(glow,10)" width="300" height="300" x="-200" y="-100" z="500" rotationY="-20"/>
+				<object type="text" width="600" fontcolor="0xffffff" fontsize="150" height="200" source="Features" x="-300" y="300" z="800" rotationY="-20" transparency="false" underline="true"/>
+				<object type="text" width="500" fontcolor="0xffffff" fontsize="30" height="300" source="-Interactive 3D World
+-Powerfull visual presentation
+-Shows are customizable via XML
+-Optional slideshow or interactive show
+-Lots of possible objects" x="300" y="0" z="400" rotationY="15" transparency="false"/>
+			</objects>
+		</view>
+		
+		<view name="3" x="0" y="3000" z="6000" tourTimeout="5">
+			<objects>
+				<object type="dae" source="cow.dae" scale="2" x="-300" y="-300" z="500" rotationY="-30"/>
+				<object type="text" width="600" fontcolor="0xffffff" fontsize="150" height="200" source="Objects" x="-300" y="300" z="800" rotationY="-20" transparency="false" underline="true"/>
+				<object type="text" width="500" fontcolor="0xffffff" fontsize="30" height="300" source="-Collada 3d models
+-Textboxes
+-(Transparant) Images
+-FLV Videos
+-Live Webcamfeeds" x="300" y="0" z="400" rotationY="15" transparency="false"/>
+			</objects>
+		</view>
+		
+		<view name="4" x="0" y="4000" z="8000" tourTimeout="7">
+			<objects>
+				<object type="movie" width="320" height="240" x="-200" z="500" rotationY="-20" click="Filter(glow,20)"  source="promo.flv"/>
+				<object type="text" width="650" fontcolor="0xffffff" fontsize="120" height="200" source="Options" x="-300" y="300" z="800" rotationY="-20" transparency="false" underline="true"/>
+				<object type="text" width="500" fontcolor="0xffffff" fontsize="30" height="400" source="-Support common formats FLV, PNG, JPG etc.
+-onClick effects such as
+-Blur, glow
+-Internal links to other view
+-External links to website" x="300" y="0" z="400" rotationY="15" transparency="false"/>
+			</objects>
+		</view>
+		
+		<view name="5" x="0" y="5000" z="10000" tourTimeout="5">
+			<objects>
+				<object type="webcam" x="-200" y="-100" z="500" rotationY="-20" animation="RotateY(1.5)" click="Filter(blur,15)"/>
+				<object type="text" width="600" fontcolor="0xffffff" fontsize="150" height="200" source="Webcam" x="-300" y="300" z="800" rotationY="-20" transparency="false" underline="true"/>
+				<object type="text" width="500" fontcolor="0xffffff" fontsize="30" height="300" source="-Plug and play webcam support
+-Every object fully animational rotatable in 3D
+-Still effectable with onclick events
+-please checkout following examples..." x="300" y="0" z="400" rotationY="15" transparency="false"/>
+			</objects>
+		</view>
+		
+		<view name="6" x="0" y="6000" z="12000" tourTimeout="5">
+			<objects>
+				<object type="image" click="External(http://www.few.vu.nl/~powerrail/powerportfolio)" source="powerportfolio.png" width="500" height="400" x="0" y="-100" z="500" rotationY="0"/>
+				<object type="text" width="700" fontcolor="0xffffff" fontsize="150" height="200" source="Example 1" x="-300" y="300" z="800" rotationY="-20" transparency="false" underline="true"/>
+			</objects>
+		</view>
+		
+		<view name="7" x="0" y="7000" z="15000" tourTimeout="5">
+			<objects>
+				<object type="image" click="External(http://www.few.vu.nl/~powerrail/powerwall)" source="powerwall.png" width="500" height="400" x="0" y="-100" z="500" rotationY="0"/>
+				<object type="text" width="700" fontcolor="0xffffff" fontsize="150" height="200" source="Example 2" x="-300" y="300" z="800" rotationY="-20" transparency="false" underline="true"/>
+			</objects>
+		</view>
+
+		<view name="7" x="0" y="8000" z="18000" tourTimeout="5">
+			<objects>
+				<object type="image" click="External(http://www.few.vu.nl/~powerrail/powergallery)" source="powergallery.png" width="500" height="400" x="0" y="-100" z="500" rotationY="0"/>
+				<object type="text" width="700" fontcolor="0xffffff" fontsize="150" height="200" source="Example 3" x="-300" y="300" z="800" rotationY="-20" transparency="false" underline="true"/>
+			</objects>
+		</view>
+		
+		<view name="end" x="0" y="9000" z="21000" tourTimeout="5" tweenTime="2" next="start">
+			<objects>
+				<object type="image" width="1000" height="1000" source="back.png" click="Internal(start)" x="-200" y="3000" z="400" rotationY="0"/>
+				<object type="text" width="1200" fontcolor="0xffffff" fontsize="100" height="500" next="powerrail"  source="PowerRail  www.niftysystems.nl
+      info@niftysystems.nl" x="0" y="0" z="600" rotationY="0" click="External(http://www.niftysystems.nl)" transparency="false"/>
+			</objects>
+		</view>
+	</views>
+</data>
