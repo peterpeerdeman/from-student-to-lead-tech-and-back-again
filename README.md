@@ -1,5 +1,5 @@
-A presentation about consuming RESTful resources in AngularJS using $resource and Restangular. 
+A presentation about my career journey from student to lead tech. 
 
-It can be found on http://peterpeerdeman.github.io/consuming-restful-resources-with-angularjs/
+The slides can be found on http://peterpeerdeman.github.io/from-student-to-lead-tech-and-back-again/
 
-This talk was given on 04-12-2013 at the JSMVC Meetup in Amsterdam http://www.meetup.com/JavaScript-MVC-Meetup-Amsterdam/events/152193262/
+This talk was given on 29-04-2014 at the BrainSTORM at the Vrije Universiteit in Amsterdam
